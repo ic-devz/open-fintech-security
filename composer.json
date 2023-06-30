@@ -1,0 +1,24 @@
+{
+    "name": "open-fintech/security",
+    "description": "Authorization & Permissions Domain",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "10.3.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "OpenFintech\\Security\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ichavezrg",
+            "email": "ichavez@redgirasol.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/monolog-bundle": "^3.0@dev"
+    }
+}
