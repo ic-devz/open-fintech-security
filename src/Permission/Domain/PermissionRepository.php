@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Security\Permission\Domain;
+namespace OpenFintech\Security\Permission\Domain;
 
 interface PermissionRepository
 {

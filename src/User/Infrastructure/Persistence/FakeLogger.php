@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Security\User\Infrastructure\Persistence;
+namespace OpenFintech\Security\User\Infrastructure\Persistence;
 
-use Security\Logger\Domain\LoggerProvider;
+use OpenFintech\Security\Logger\Domain\LoggerProvider;
 
 class FakeLogger implements LoggerProvider
 {

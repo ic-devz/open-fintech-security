@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Security\User\Application\Commands\DeleteUser;
+namespace OpenFintech\Security\User\Application\Commands\DeleteUser;
 
-use Security\Command\Domain\Command;
+use OpenFintech\Security\Command\Domain\Command;
 
 class DeleteUserCommand implements Command
 {

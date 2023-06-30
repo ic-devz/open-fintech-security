@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Security\User\Domain;
+namespace OpenFintech\Security\User\Domain;
 
 interface UserRepository
 {

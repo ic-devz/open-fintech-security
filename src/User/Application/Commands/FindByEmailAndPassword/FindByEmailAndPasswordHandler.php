@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Security\User\Application\Commands\FindByEmailAndPassword;
+namespace OpenFintech\Security\User\Application\Commands\FindByEmailAndPassword;
 
-use Security\Command\Domain\Command;
-use Security\Command\Domain\CommandHandler;
-use Security\User\Domain\PasswordEncrypt;
-use Security\User\Domain\UserRepository;
+use OpenFintech\Security\Command\Domain\Command;
+use OpenFintech\Security\Command\Domain\CommandHandler;
+use OpenFintech\Security\User\Domain\PasswordEncrypt;
+use OpenFintech\Security\User\Domain\UserRepository;
 
 class FindByEmailAndPasswordHandler implements CommandHandler
 {

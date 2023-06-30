@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-use Security\Command\Domain\CommandBus;
-use Security\User\Application\Commands\FindByEmail\FindByEmailHandler;
-use Security\User\Application\UserService;
-use Security\User\Domain\User;
-use Security\User\Infrastructure\Persistence\FakeLogger;
-use Security\User\Infrastructure\Persistence\InMemoryUserRepository;
+use OpenFintech\Security\Command\Domain\CommandBus;
+use OpenFintech\Security\User\Application\Commands\FindByEmail\FindByEmailHandler;
+use OpenFintech\Security\User\Application\UserService;
+use OpenFintech\Security\User\Domain\User;
+use OpenFintech\Security\User\Infrastructure\Persistence\FakeLogger;
+use OpenFintech\Security\User\Infrastructure\Persistence\InMemoryUserRepository;
 use PHPUnit\Framework\TestCase;
 
 class RegisterNewUserTest extends TestCase

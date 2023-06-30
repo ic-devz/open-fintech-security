@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Security\User\Application\Commands\UpdateUser;
+namespace OpenFintech\Security\User\Application\Commands\UpdateUser;
 
-use Security\Command\Domain\Command;
-use Security\Role\Domain\Role;
+use OpenFintech\Security\Command\Domain\Command;
+use OpenFintech\Security\Role\Domain\Role;
 
 class UpdateUserCommand implements Command
 {

@@ -8,13 +8,13 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Security\\": "src/"
+            "OpenFintech\\Security\\": "src/"
         }
     },
     "authors": [
         {
             "name": "ichavezrg",
-            "email": "ichavez@redgirasol.com"
+            "email": "ichavez@open-fintech.io"
         }
     ],
     "minimum-stability": "dev",

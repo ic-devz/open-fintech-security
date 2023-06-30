@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Security\User\Application\Commands\UpdateUser;
+namespace OpenFintech\Security\User\Application\Commands\UpdateUser;
 
-use Security\Command\Domain\Command;
-use Security\Command\Domain\CommandHandler;
-use Security\User\Domain\PasswordEncrypt;
-use Security\User\Domain\User;
-use Security\User\Domain\UserException;
-use Security\User\Domain\UserRepository;
+use OpenFintech\Security\Command\Domain\Command;
+use OpenFintech\Security\Command\Domain\CommandHandler;
+use OpenFintech\Security\User\Domain\PasswordEncrypt;
+use OpenFintech\Security\User\Domain\User;
+use OpenFintech\Security\User\Domain\UserException;
+use OpenFintech\Security\User\Domain\UserRepository;
 
 class UpdateUserHandler implements CommandHandler
 {

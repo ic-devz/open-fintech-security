@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Security\Role\Domain;
+namespace OpenFintech\Security\Role\Domain;
 
 class Role
 {

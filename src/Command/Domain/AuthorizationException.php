@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Security\Command\Domain;
+namespace OpenFintech\Security\Command\Domain;
 
 class AuthorizationException extends \Exception
 {

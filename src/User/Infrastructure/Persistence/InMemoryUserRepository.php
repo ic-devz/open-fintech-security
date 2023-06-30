@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Security\User\Infrastructure\Persistence;
+namespace OpenFintech\Security\User\Infrastructure\Persistence;
 
-use Security\User\Domain\User;
-use Security\User\Domain\UserRepository;
+use OpenFintech\Security\User\Domain\User;
+use OpenFintech\Security\User\Domain\UserRepository;
 
 class InMemoryUserRepository implements UserRepository
 {
