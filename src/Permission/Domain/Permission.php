@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenFintech\Security\Permission\Domain;
+namespace Security\Permission\Domain;
 
 class Permission
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenFintech\Security\Logger\Domain;
+namespace Security\Logger\Domain;
 
 interface LoggerProvider
 {

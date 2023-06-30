@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace OpenFintech\Security\User\Application\Commands\FindByEmail;
+namespace Security\User\Application\Commands\FindByEmail;
 
-use OpenFintech\Security\Command\Domain\Command;
-use OpenFintech\Security\Command\Domain\CommandHandler;
-use OpenFintech\Security\User\Domain\UserRepository;
+use Security\Command\Domain\Command;
+use Security\Command\Domain\CommandHandler;
+use Security\User\Domain\UserRepository;
 
 class FindByEmailHandler implements CommandHandler
 {

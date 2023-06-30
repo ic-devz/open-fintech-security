@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenFintech\Security\User\Domain;
+namespace Security\User\Domain;
 
 interface Id
 {

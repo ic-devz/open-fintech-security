@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace OpenFintech\Security\Command\Domain;
+namespace Security\Command\Domain;
 
-use OpenFintech\Security\Logger\Domain\LoggerProvider;
-use OpenFintech\Security\User\Domain\User;
+use Security\Logger\Domain\LoggerProvider;
+use Security\User\Domain\User;
 
 class CommandBus
 {

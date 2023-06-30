@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenFintech\Security\Role\Domain;
+namespace Security\Role\Domain;
 
 interface RoleRepository
 {

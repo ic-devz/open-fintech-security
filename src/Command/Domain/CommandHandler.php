@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenFintech\Security\Command\Domain;
+namespace Security\Command\Domain;
 
 interface CommandHandler
 {

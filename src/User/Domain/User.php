@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace OpenFintech\Security\User\Domain;
+namespace Security\User\Domain;
 
-use OpenFintech\Security\Permission\Domain\Permission;
-use OpenFintech\Security\Role\Domain\Role;
+use Security\Permission\Domain\Permission;
+use Security\Role\Domain\Role;
 
 class User
 {

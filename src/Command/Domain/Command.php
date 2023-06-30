@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenFintech\Security\Command\Domain;
+namespace Security\Command\Domain;
 
 interface Command
 {

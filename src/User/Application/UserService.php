@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace OpenFintech\Security\User\Application;
+namespace Security\User\Application;
 
-use OpenFintech\Security\Command\Domain\CommandBus;
-use OpenFintech\Security\Role\Domain\Role;
-use OpenFintech\Security\User\Application\Commands\DeleteUser\DeleteUserCommand;
-use OpenFintech\Security\User\Application\Commands\FindByEmail\FindByEmailCommand;
-use OpenFintech\Security\User\Application\Commands\FindByEmailAndPassword\FindByEmailAndPasswordCommand;
-use OpenFintech\Security\User\Application\Commands\FindById\FindByIdCommand;
-use OpenFintech\Security\User\Application\Commands\RegisterNewUser\RegisterNewUserCommand;
-use OpenFintech\Security\User\Application\Commands\UpdateUser\UpdateUserCommand;
-use OpenFintech\Security\User\Domain\User;
+use Security\Command\Domain\CommandBus;
+use Security\Role\Domain\Role;
+use Security\User\Application\Commands\DeleteUser\DeleteUserCommand;
+use Security\User\Application\Commands\FindByEmail\FindByEmailCommand;
+use Security\User\Application\Commands\FindByEmailAndPassword\FindByEmailAndPasswordCommand;
+use Security\User\Application\Commands\FindById\FindByIdCommand;
+use Security\User\Application\Commands\RegisterNewUser\RegisterNewUserCommand;
+use Security\User\Application\Commands\UpdateUser\UpdateUserCommand;
+use Security\User\Domain\User;
 
 class UserService
 {

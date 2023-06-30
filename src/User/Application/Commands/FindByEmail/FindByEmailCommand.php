@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace OpenFintech\Security\User\Application\Commands\FindByEmail;
+namespace Security\User\Application\Commands\FindByEmail;
 
-use OpenFintech\Security\Command\Domain\Command;
+use Security\Command\Domain\Command;
 
 class FindByEmailCommand implements Command
 {
